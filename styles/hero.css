@@ -1,0 +1,77 @@
+.md-container {
+    background-color: black;
+}
+.md-header {
+    background-color: black;
+}
+body, body * {
+    color: white !important;
+}
+
+.md-header__button.md-logo img {
+    max-height: 200px;
+}
+
+.md-header {
+    box-shadow: none !important;
+    padding: 1rem 0;
+}
+
+.md-header__button[for="__drawer"] {
+    display: none
+  }
+
+.md-header__button.md-logo {
+    display: flex !important;
+    padding: 0 1rem;
+}
+
+/* Expand hero section to full viewport */
+.hero {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    color: white;
+    text-align: center;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.hero h1,
+.hero h2,
+.hero h3 {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #e9c46a;
+    color: #264653;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f4a261;
+}
+
+.md-button:hover {
+    background-color: #0077b6 !important;  /* Darker blue on hover */
+    color: #fff !important;
+    border-color: #0077b6 !important;
+}
