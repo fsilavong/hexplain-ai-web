@@ -1,8 +1,10 @@
 site_name: Hexplain AI
-site_url: https://yourdomain.com
+site_url: https://hexplain.ai
 
 theme:
   name: material
+  font:
+    text: Inter Tight
   features:
     - navigation.instant
     - header.autohide
@@ -13,7 +15,10 @@ theme:
   logo: images/logo.png
   custom_dir: overrides
   favicon: images/logo.png
-
+  icon:
+    admonition:
+      note: fontawesome/solid/info
+      abstract: fontawesome/solid/money-bill
 extra_css:
   - styles/hero.css
 

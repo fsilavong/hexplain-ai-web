@@ -1,6 +1,11 @@
 # Hexplain AI Website
 
-Deploy to `gh-deploy`` branch
+
+**Run Locally**
+```
+poetry run mkdocs serve
+```
+**Deploy to `gh-deploy`` branch**
 ```
 poetry run mkdocs gh-deploy 
 ```

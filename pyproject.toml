@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "spacetu-web"
+name = "hexplain-ai-web"
 version = "0.1.0"
 description = ""
 authors = ["fsilavong <fransilavong@gmail.com>"]
