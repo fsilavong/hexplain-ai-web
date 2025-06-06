@@ -83,10 +83,9 @@ table, th, td {
 /* Style for grid containers */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 10px;
-    width: 100%;
-    padding: 10px
+    /* width: 100%; */
   }
   
   /* Style for grid items with images */
